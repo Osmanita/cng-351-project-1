@@ -1,6 +1,14 @@
 # CNG 351 Assignment 1 - +gpt değişiklik günlüğü
 
-## Güncel sürüm - dış araç çıktısının düzeltilmesi
+## Güncel sürüm - sayfa 3 joker sınırının açıklanması
+
+- Eski: "These binary links allow up to four joker uses without a ternary relationship."
+- Yeni: "These links avoid a ternary relationship; the limit of four joker uses comes from Contestant's (0,4) participation in HasJokerUse."
+- (0,4) değeri düzenlenebilir draw.io kaynağında HasJokerUse ilişkisinin Contestant ucunda doğrulandı. İfade, sınırın kaynağını açıklar; model ve kurallar değişmedi.
+- Diğer 15 sayfanın içerik akışları, sekiz diyagram görseli, A3 düzeni ve footer'lar aynıdır. 3. sayfa yeniden render edilip kontrol edildi; taşma bulunmadı.
+- Son PDF SHA-256: `C440913C0A3E00F99941CCBDD8702AFA05678B48F4F4636197F5B45D6CBB3F7C`.
+
+## Önceki sürüm - dış araç çıktısının düzeltilmesi
 
 - Repodaki +gpt PDF ve draw.io dosyaları son düzeltilmiş sürümle değiştirildi. Ayrıntılı kontrol: REVIEW +gpt.md.
 - Dış araç çıktısındaki 24 bulgu düzeltildi: Rental tarafları, UsageSession adı ve weak terimi, doğru Entity.Attribute yazımı, durum değerleri, username benzersizliği, subset kısıtları, eksilmiş alanlar ve tarih koşulları.

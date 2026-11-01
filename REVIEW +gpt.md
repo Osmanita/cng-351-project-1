@@ -55,4 +55,12 @@ The uploaded input already contains raster diagram images rather than vector PDF
 - Current report: CNG351_Assignment1_Report +gpt.pdf in the repository.
 - Matching editable source: CNG351_Assignment1_Chen +gpt.drawio in the repository.
 - Local output: CNG351_Assignment1_Report +reviewed.pdf.
-- PDF SHA-256: 4ca946fa755b7257c351db882afef0fae6ee5f15e5f3c2637409220f7c0e027c
+- PDF SHA-256: c440913c0a3e00f99941ccbdd8702afa05678b48f4f4636197f5b45d6cbb3f7c
+
+## Follow-up clarification on page 3
+
+Before: These binary links allow up to four joker uses without a ternary relationship.
+
+After: These links avoid a ternary relationship; the limit of four joker uses comes from Contestant's (0,4) participation in HasJokerUse.
+
+The (0,4) was checked against Contestant in HasJokerUse in the editable source. All other 15 page content streams, all eight diagram images, page sizes and footers are unchanged.
