@@ -2,7 +2,13 @@
 
 Assignment 1: conceptual database design using Chen entity relationship diagrams.
 
-## Latest approved revision
+## Latest report
+
+- [Report PDF (revised explanatory text)](CNG351_Assignment1_Report%20%2Bstructural.pdf)
+
+The explanatory text on pages 2, 3, 7 and 12 was reorganized to reduce repetition and connect related design choices. All eight vector diagram pages, the cover, business rules and assumptions are identical to the approved revision below. The report remains 16 pages with the same page order and footers.
+
+## Approved model and editable sources
 
 - [Report PDF (+gpt)](CNG351_Assignment1_Report%20%2Bgpt.pdf)
 - [Editable diagrams (+gpt)](CNG351_Assignment1_Chen%20%2Bgpt.drawio)
