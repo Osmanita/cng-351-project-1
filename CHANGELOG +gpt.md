@@ -1,6 +1,15 @@
 # CNG 351 Assignment 1 - +gpt değişiklik günlüğü
 
-## Güncel sürüm - sayfa 3 joker sınırının açıklanması
+## Güncel sürüm - sade dosya adı ve son metin düzenlemesi
+
+- Teslim dosyası `CNG351_Assignment1.pdf` olarak eklendi. Eski +gpt PDF yolu aynı içeriğe güncellendi.
+- Metin sayfaları 2, 3, 4, 7, 8, 12 ve 13 daha sade İngilizceyle düzenlendi. Anahtar tabloları, 56 teknik koşul ve 67 teknik ad korundu.
+- Sayfa 2'deki Requirements source paragrafı kullanıcının isteğiyle kaldırıldı. Bu son kaldırma sırasında diğer 15 sayfanın içerik akışları aynı kaldı.
+- Kapak ve sekiz diyagram sayfası değişmedi. Toplam 16 sayfa, sayfa sırası ve footer'lar korundu. Değişen metin sayfaları görsel olarak incelendi.
+- QuillBot ve GPTZero testleri çalıştırılmadı; ölçülmüş bir AI skoru yoktur.
+- Güncel PDF SHA-256: `6F55D981F161160EE19A98D115A6D3B7B6E35963CCA5E9ED478F7BB5A6B7FE76`.
+
+## Önceki sürüm - sayfa 3 joker sınırının açıklanması
 
 - Eski: "These binary links allow up to four joker uses without a ternary relationship."
 - Yeni: "These links avoid a ternary relationship; the limit of four joker uses comes from Contestant's (0,4) participation in HasJokerUse."

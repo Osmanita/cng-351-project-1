@@ -1,5 +1,11 @@
 # Review of the corrected CNG 351 report
 
+Current PDF: `CNG351_Assignment1.pdf` (16 pages). Its final language edit preserves 56 checked technical conditions, 67 technical identifiers, all key tables, the cover and all eight full diagram pages. The Requirements source paragraph on page 2 was subsequently removed; all other 15 page content streams remain unchanged by that removal. The changed text pages were visually reviewed. No QuillBot/GPTZero score has been obtained.
+
+SHA-256: `6F55D981F161160EE19A98D115A6D3B7B6E35963CCA5E9ED478F7BB5A6B7FE76`.
+
+The review below records the earlier technical repair.
+
 All 24 findings from the external rewrite were repaired. The report was checked against the approved model, and all 16 pages were rendered for layout review. No remaining new content or layout issue was found in this review.
 
 ## Repairs
