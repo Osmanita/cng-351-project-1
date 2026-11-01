@@ -451,13 +451,13 @@
         <mxCell id="text_1" value="Chen ERD | Contestant is the same entity as in View 1A. Dashed underlines denote partial keys." style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fillColor=#ffffff;strokeColor=none;fontColor=#17212b;fontFamily=Arial;fontSize=25;" vertex="1" parent="1">
           <mxGeometry x="100" y="115" width="3788" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="text_2" value="The full keys are (ContestantID, AttemptNo) for QuestionAttempt and (ContestantID, UseNo) for JokerUse. AttemptNo gives the question order." style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fillColor=#ffffff;strokeColor=none;fontColor=#17212b;fontFamily=Arial;fontSize=25;" vertex="1" parent="1">
+        <mxCell id="text_2" value="AttemptNo follows the question order within a game. The full keys are (ContestantID, AttemptNo) for QuestionAttempt and (ContestantID, UseNo) for JokerUse." style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fillColor=#ffffff;strokeColor=none;fontColor=#17212b;fontFamily=Arial;fontSize=25;" vertex="1" parent="1">
           <mxGeometry x="100" y="2146.0" width="3788" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="text_3" value="A JokerUse must refer to a QuestionAttempt owned by the same contestant. IsCorrect is stored and checked against GivenAnswer = Question.CorrectChoice." style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fillColor=#ffffff;strokeColor=none;fontColor=#17212b;fontFamily=Arial;fontSize=25;" vertex="1" parent="1">
+        <mxCell id="text_3" value="UsedFor links a joker use to an attempt by the same contestant. We keep IsCorrect as a stored value and check it against GivenAnswer = Question.CorrectChoice." style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fillColor=#ffffff;strokeColor=none;fontColor=#17212b;fontFamily=Arial;fontSize=25;" vertex="1" parent="1">
           <mxGeometry x="100" y="2201.0" width="3788" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="text_4" value="JokerType.TypeName can be Fifty-Fifty, Phone a Friend or Ask the Audience." style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fillColor=#ffffff;strokeColor=none;fontColor=#17212b;fontFamily=Arial;fontSize=25;" vertex="1" parent="1">
+        <mxCell id="text_4" value="JokerType.TypeName is one of the three listed options: Fifty-Fifty, Phone a Friend or Ask the Audience." style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fillColor=#ffffff;strokeColor=none;fontColor=#17212b;fontFamily=Arial;fontSize=25;" vertex="1" parent="1">
           <mxGeometry x="100" y="2256.0" width="3788" height="55" as="geometry" />
         </mxCell>
       <mxCell id="notes_heading" value="Notes" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fillColor=#ffffff;strokeColor=none;fontColor=#17212b;fontFamily=Arial;fontSize=27;fontStyle=1;" vertex="1" parent="1">

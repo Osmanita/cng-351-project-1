@@ -1,5 +1,13 @@
 # Review of the corrected CNG 351 report
 
+## Current revision
+
+Current PDF: `CNG351_Assignment1.pdf`, 16 pages. Pages 2, 3, 4, 7 and 8 have revised explanations; page 6 has three revised notes. All eight diagram image payloads and placements are unchanged; the page 6 plotted region was compared pixel by pixel. The cover, UC3 and the other seven full diagram pages are unchanged. Key tables, 41 checked modelling conditions and all 67 technical identifiers are retained. Source XML differs only in UC1B text_2, text_3 and text_4. Revised pages were rendered and individually inspected; no clipping or overlaps were found. The new document has not been retested by an external AI detector.
+
+SHA-256: `B9ECF21E81635E3E6104B593AE11D094F26C8C15366DFA02C490DF61D52660A0`.
+
+## Earlier reviews
+
 Current PDF: `CNG351_Assignment1.pdf` (16 pages). Its final language edit preserves 56 checked technical conditions, 67 technical identifiers, all key tables, the cover and all eight full diagram pages. The Requirements source paragraph on page 2 was subsequently removed; all other 15 page content streams remain unchanged by that removal. The changed text pages were visually reviewed. No QuillBot/GPTZero score has been obtained.
 
 SHA-256: `6F55D981F161160EE19A98D115A6D3B7B6E35963CCA5E9ED478F7BB5A6B7FE76`.

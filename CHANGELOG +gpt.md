@@ -1,6 +1,15 @@
 # CNG 351 Assignment 1 - +gpt değişiklik günlüğü
 
-## Güncel sürüm - sade dosya adı ve son metin düzenlemesi
+## Güncel sürüm - UC1 ve UC2 açıklamalarının düzenlenmesi
+
+- Sayfa 2, 3, 4, 7 ve 8: notasyon açıklamaları ve UC1-UC2 gerekçeleri yeniden yazıldı; anahtar tabloları ve teknik kısıtlar korundu.
+- Sayfa 6: yalnızca çizimin altındaki üç Notes paragrafı güncellendi. Aynı üç not draw.io UC1B text_2, text_3 ve text_4 hücrelerine aktarıldı.
+- UC3, kapak ve diğer yedi tam diyagram sayfası aynı kaldı. Sekiz çizim görselinin dosya içeriği ve konumları değişmedi; 6. sayfanın çizim bölgesi piksel düzeyinde aynı.
+- Toplam 16 sayfa, sıra, footer'lar, 41 teknik koşul ve 67 teknik ad doğrulandı. Değişen sayfalar görsel olarak incelendi.
+- Requirements source paragrafı geri eklenmedi. Yeni sürüm için dış tarama sonucu alınmadı.
+- PDF SHA-256: `B9ECF21E81635E3E6104B593AE11D094F26C8C15366DFA02C490DF61D52660A0`.
+
+## Önceki sürüm - sade dosya adı ve son metin düzenlemesi
 
 - Teslim dosyası `CNG351_Assignment1.pdf` olarak eklendi. Eski +gpt PDF yolu aynı içeriğe güncellendi.
 - Metin sayfaları 2, 3, 4, 7, 8, 12 ve 13 daha sade İngilizceyle düzenlendi. Anahtar tabloları, 56 teknik koşul ve 67 teknik ad korundu.
