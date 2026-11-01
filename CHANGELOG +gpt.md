@@ -1,5 +1,17 @@
 # CNG 351 Assignment 1 - +gpt değişiklik günlüğü
 
+## Güncel dosyalar
+
+Repodaki `CNG351_Assignment1_Report +gpt.pdf` ve `CNG351_Assignment1_Chen +gpt.drawio` dosyaları, son rapor ve çizim kaynağıyla değiştirildi. README bu iki bağımsız dosyaya yönlendirir. ZIP önceki inceleme paketidir.
+
+- PDF sayfa 2, 3, 7 ve 12: açıklama tekrarları azaltıldı, bağlantılı tasarım gerekçeleri birlikte yazıldı. Anahtar tabloları korundu.
+- PDF sayfa 5, 6, 9, 10, 11, 14, 15 ve 16: 21 çizim notu anlamı korunarak düzenlendi ve çizimin altındaki ayrı Notes bölümüne taşındı. Düzenlenebilir draw.io dosyasında aynı metinler bulunur.
+- Entity, attribute, ilişki uçları, cardinality değerleri, tek/çift çizgiler ve model koordinatları değişmedi. 33 binary ilişki, 66 cardinality ucu ve 6 partial-key alt çizgisi korundu.
+- Kapak ile business rules ve assumptions sayfaları önceki onaylı sürümle aynıdır. Rapor 16 sayfa; sekiz diyagram vektör ve 1684 × 1191 pt; footer'lar korundu.
+- Son PDF ve draw.io dosyaları, daha önce doğrulanan +notes sürümüyle aynı içeriğe sahiptir. PDF SHA-256: `2DB1C7F39639BF171950BA8773841948F80956B20316A1A9D2198820D9C73659`.
+
+## Önceki onaylı içerik düzeltmeleri
+
 **Durum:** Son kullanıcı onayına göre K1 ve R1-R5 uygulandı. O1 ve O3 uygulanmadı. O2 değiştirilmedi. Rapor 16 sayfa; sekiz diyagram 1684 × 1191 pt ve vektör.
 
 ## Dosyalar ve kaynak koruması
