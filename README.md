@@ -6,11 +6,12 @@ Assignment 1: conceptual database design using Chen entity relationship diagrams
 
 - [Current report PDF (+gpt)](CNG351_Assignment1_Report%20%2Bgpt.pdf)
 - [Current editable diagrams (+gpt)](CNG351_Assignment1_Chen%20%2Bgpt.drawio)
+- [Review and checks](REVIEW%20%2Bgpt.md)
 - [Change log](CHANGELOG%20%2Bgpt.md)
 
-These standalone files are the latest matching report and drawing source. The PDF includes the revised explanatory prose and the 21 revised note paragraphs in a separate Notes block below each diagram. The draw.io file contains all eight views with the same notes. Entity and attribute names, keys, relationship endpoints, cardinalities and model coordinates are preserved.
+These standalone files are the latest matching report and drawing source. The report text and layout have been corrected after an external rewrite: technical names and constraints are restored, the notation table and assumption lists are repaired, and the drawing notes use a consistent 11.5 pt font. The draw.io file contains all eight views with the same notes. Entity and attribute names, keys, relationship endpoints, cardinalities and model coordinates are preserved.
 
-The English report has 16 pages and eight vector diagram pages measuring 1684 by 1191 pt. The approved K1 and R1-R5 changes are retained, together with the completed cover and page footers. O1 and O3 were not applied; stored IsCorrect and its consistency rule remain.
+The English report has 16 pages with the uploaded PDF's A4 text pages and landscape A3 drawing pages. Its eight diagram images and their positions are preserved exactly from that upload; the drawing images in the uploaded copy were already raster rather than vector. The approved K1 and R1-R5 changes, completed cover and page footers are retained. O1 and O3 were not applied; stored IsCorrect and its consistency rule remain.
 
 ## Earlier files
 

@@ -192,10 +192,10 @@
         <mxCell id="text_1" value="Chen ERD | Entity attributes continue in View 1B where marked. All relationships are binary." style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fillColor=#ffffff;strokeColor=none;fontColor=#17212b;fontFamily=Arial;fontSize=25;" vertex="1" parent="1">
           <mxGeometry x="100" y="115" width="2773" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="text_2" value="Contestant.Age is calculated in completed years from DateOfBirth. Host.Email is unique in addition to HostID." style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fillColor=#ffffff;strokeColor=none;fontColor=#17212b;fontFamily=Arial;fontSize=25;" vertex="1" parent="1">
+        <mxCell id="text_2" value="Contestant.Age is the number of completed years since DateOfBirth. Host.Email is unique in addition to HostID." style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fillColor=#ffffff;strokeColor=none;fontColor=#17212b;fontFamily=Arial;fontSize=25;" vertex="1" parent="1">
           <mxGeometry x="100" y="2467.0" width="2773" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="text_3" value="Each person has one Contestant record linked to exactly one episode, so participation is limited to one episode." style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fillColor=#ffffff;strokeColor=none;fontColor=#17212b;fontFamily=Arial;fontSize=25;" vertex="1" parent="1">
+        <mxCell id="text_3" value="One Contestant record is kept for each person. It belongs to one episode, so a person can take part in the show only once." style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fillColor=#ffffff;strokeColor=none;fontColor=#17212b;fontFamily=Arial;fontSize=25;" vertex="1" parent="1">
           <mxGeometry x="100" y="2522.0" width="2773" height="55" as="geometry" />
         </mxCell>
       <mxCell id="notes_heading" value="Notes" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fillColor=#ffffff;strokeColor=none;fontColor=#17212b;fontFamily=Arial;fontSize=27;fontStyle=1;" vertex="1" parent="1">
@@ -451,13 +451,13 @@
         <mxCell id="text_1" value="Chen ERD | Contestant is the same entity as in View 1A. Dashed underlines denote partial keys." style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fillColor=#ffffff;strokeColor=none;fontColor=#17212b;fontFamily=Arial;fontSize=25;" vertex="1" parent="1">
           <mxGeometry x="100" y="115" width="3788" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="text_2" value="QuestionAttempt is identified by (ContestantID, AttemptNo), and JokerUse by (ContestantID, UseNo). AttemptNo records the order in which questions are asked." style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fillColor=#ffffff;strokeColor=none;fontColor=#17212b;fontFamily=Arial;fontSize=25;" vertex="1" parent="1">
+        <mxCell id="text_2" value="The full keys are (ContestantID, AttemptNo) for QuestionAttempt and (ContestantID, UseNo) for JokerUse. AttemptNo gives the question order." style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fillColor=#ffffff;strokeColor=none;fontColor=#17212b;fontFamily=Arial;fontSize=25;" vertex="1" parent="1">
           <mxGeometry x="100" y="2146.0" width="3788" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="text_3" value="Each JokerUse must refer to a QuestionAttempt owned by the same contestant. IsCorrect is stored and checked by comparing GivenAnswer with Question.CorrectChoice." style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fillColor=#ffffff;strokeColor=none;fontColor=#17212b;fontFamily=Arial;fontSize=25;" vertex="1" parent="1">
+        <mxCell id="text_3" value="A JokerUse must refer to a QuestionAttempt owned by the same contestant. IsCorrect is stored and checked against GivenAnswer = Question.CorrectChoice." style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fillColor=#ffffff;strokeColor=none;fontColor=#17212b;fontFamily=Arial;fontSize=25;" vertex="1" parent="1">
           <mxGeometry x="100" y="2201.0" width="3788" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="text_4" value="JokerType.TypeName is Fifty-Fifty, Phone a Friend or Ask the Audience." style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fillColor=#ffffff;strokeColor=none;fontColor=#17212b;fontFamily=Arial;fontSize=25;" vertex="1" parent="1">
+        <mxCell id="text_4" value="JokerType.TypeName can be Fifty-Fifty, Phone a Friend or Ask the Audience." style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fillColor=#ffffff;strokeColor=none;fontColor=#17212b;fontFamily=Arial;fontSize=25;" vertex="1" parent="1">
           <mxGeometry x="100" y="2256.0" width="3788" height="55" as="geometry" />
         </mxCell>
       <mxCell id="notes_heading" value="Notes" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fillColor=#ffffff;strokeColor=none;fontColor=#17212b;fontFamily=Arial;fontSize=27;fontStyle=1;" vertex="1" parent="1">
@@ -784,10 +784,10 @@
         <mxCell id="text_1" value="Chen ERD | Dormitory is the same entity as in View 2A. Each separate stay has its own StayID." style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fillColor=#ffffff;strokeColor=none;fontColor=#17212b;fontFamily=Arial;fontSize=25;" vertex="1" parent="1">
           <mxGeometry x="100" y="115" width="2470" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="text_2" value="Student.Username is unique in addition to StudentID. Student.Age is stored because no birth date is supplied." style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fillColor=#ffffff;strokeColor=none;fontColor=#17212b;fontFamily=Arial;fontSize=25;" vertex="1" parent="1">
+        <mxCell id="text_2" value="Student.Username is unique on its own, in addition to StudentID. Student.Age is stored because no birth date is given." style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fillColor=#ffffff;strokeColor=none;fontColor=#17212b;fontFamily=Arial;fontSize=25;" vertex="1" parent="1">
           <mxGeometry x="100" y="2127.0" width="2470" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="text_3" value="Each student has exactly one open Stay, with EndDate = NULL and the same dormitory as CurrentlyIn. Returning to a dormitory creates a new StayID." style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fillColor=#ffffff;strokeColor=none;fontColor=#17212b;fontFamily=Arial;fontSize=25;" vertex="1" parent="1">
+        <mxCell id="text_3" value="Each student has one open Stay with EndDate = NULL, and its dormitory must match CurrentlyIn. A return to the same dormitory gets a new StayID." style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fillColor=#ffffff;strokeColor=none;fontColor=#17212b;fontFamily=Arial;fontSize=25;" vertex="1" parent="1">
           <mxGeometry x="100" y="2182.0" width="2470" height="55" as="geometry" />
         </mxCell>
       <mxCell id="notes_heading" value="Notes" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fillColor=#ffffff;strokeColor=none;fontColor=#17212b;fontFamily=Arial;fontSize=27;fontStyle=1;" vertex="1" parent="1">
@@ -982,13 +982,13 @@
         <mxCell id="text_1" value="Chen ERD | Machine and Dormitory are references to View 2A. A usage session is weak under its machine." style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fillColor=#ffffff;strokeColor=none;fontColor=#17212b;fontFamily=Arial;fontSize=25;" vertex="1" parent="1">
           <mxGeometry x="100" y="115" width="3340" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="text_2" value="UsageSession is identified by (MachineID, SessionNo). Duration is calculated from StartTime and EndTime when both are known." style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fillColor=#ffffff;strokeColor=none;fontColor=#17212b;fontFamily=Arial;fontSize=25;" vertex="1" parent="1">
+        <mxCell id="text_2" value="UsageSession has the full key (MachineID, SessionNo). Duration is derived from StartTime and EndTime once both are available." style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fillColor=#ffffff;strokeColor=none;fontColor=#17212b;fontFamily=Arial;fontSize=25;" vertex="1" parent="1">
           <mxGeometry x="100" y="2146.0" width="3340" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="text_3" value="Completed and interrupted sessions must identify a dormitory. The machine must be allocated to that dormitory when it is used." style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fillColor=#ffffff;strokeColor=none;fontColor=#17212b;fontFamily=Arial;fontSize=25;" vertex="1" parent="1">
+        <mxCell id="text_3" value="Completed and interrupted sessions must identify a dormitory. The machine must be allocated to that dormitory at the time of use." style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fillColor=#ffffff;strokeColor=none;fontColor=#17212b;fontFamily=Arial;fontSize=25;" vertex="1" parent="1">
           <mxGeometry x="100" y="2201.0" width="3340" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="text_4" value="Each maintenance agreement has its own ContractID, so contracts between the same supplier and machine remain separate over time." style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fillColor=#ffffff;strokeColor=none;fontColor=#17212b;fontFamily=Arial;fontSize=25;" vertex="1" parent="1">
+        <mxCell id="text_4" value="A new maintenance agreement gets its own ContractID, even when the supplier and machine are the same." style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fillColor=#ffffff;strokeColor=none;fontColor=#17212b;fontFamily=Arial;fontSize=25;" vertex="1" parent="1">
           <mxGeometry x="100" y="2256.0" width="3340" height="55" as="geometry" />
         </mxCell>
       <mxCell id="notes_heading" value="Notes" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fillColor=#ffffff;strokeColor=none;fontColor=#17212b;fontFamily=Arial;fontSize=27;fontStyle=1;" vertex="1" parent="1">
@@ -1232,13 +1232,13 @@
         <mxCell id="text_1" value="Chen ERD | Company.EmployeeCount* is a stored, automatically maintained derived value." style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fillColor=#ffffff;strokeColor=none;fontColor=#17212b;fontFamily=Arial;fontSize=25;" vertex="1" parent="1">
           <mxGeometry x="100" y="115" width="2872" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="text_2" value="A company's representative must be one of its current employees: Represents is a subset of WorksFor." style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fillColor=#ffffff;strokeColor=none;fontColor=#17212b;fontFamily=Arial;fontSize=25;" vertex="1" parent="1">
+        <mxCell id="text_2" value="A company's representative must be one of its own current employees. Represents is therefore a subset of WorksFor." style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fillColor=#ffffff;strokeColor=none;fontColor=#17212b;fontFamily=Arial;fontSize=25;" vertex="1" parent="1">
           <mxGeometry x="100" y="2625.0" width="2872" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="text_3" value="Companies currently operating in KALTEV must have at least one ongoing rental. Rental periods for the same office cannot overlap." style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fillColor=#ffffff;strokeColor=none;fontColor=#17212b;fontFamily=Arial;fontSize=25;" vertex="1" parent="1">
+        <mxCell id="text_3" value="Every company currently operating in KALTEV needs at least one ongoing rental. Rental periods for the same office must not overlap." style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fillColor=#ffffff;strokeColor=none;fontColor=#17212b;fontFamily=Arial;fontSize=25;" vertex="1" parent="1">
           <mxGeometry x="100" y="2680.0" width="2872" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="text_4" value="Employee.Email is unique in addition to NationalID. EmployeeCount* counts the current WorksFor employees; it is stored and maintained automatically." style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fillColor=#ffffff;strokeColor=none;fontColor=#17212b;fontFamily=Arial;fontSize=25;" vertex="1" parent="1">
+        <mxCell id="text_4" value="Employee.Email is unique in addition to NationalID. EmployeeCount* is the stored count of current employees in WorksFor and is updated automatically." style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fillColor=#ffffff;strokeColor=none;fontColor=#17212b;fontFamily=Arial;fontSize=25;" vertex="1" parent="1">
           <mxGeometry x="100" y="2735.0" width="2872" height="55" as="geometry" />
         </mxCell>
       <mxCell id="notes_heading" value="Notes" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fillColor=#ffffff;strokeColor=none;fontColor=#17212b;fontFamily=Arial;fontSize=27;fontStyle=1;" vertex="1" parent="1">
@@ -1485,13 +1485,13 @@
         <mxCell id="text_1" value="Chen ERD | Company and Employee refer to View 3A. Every project manager must also work on that project." style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fillColor=#ffffff;strokeColor=none;fontColor=#17212b;fontFamily=Arial;fontSize=25;" vertex="1" parent="1">
           <mxGeometry x="100" y="115" width="3760" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="text_2" value="Deliverable is identified by (ProjectCode, DeliverableNo). Deliverable numbering starts again at D1 for each project." style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fillColor=#ffffff;strokeColor=none;fontColor=#17212b;fontFamily=Arial;fontSize=25;" vertex="1" parent="1">
+        <mxCell id="text_2" value="The full key for Deliverable is (ProjectCode, DeliverableNo). Numbering starts at D1 again for each project." style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fillColor=#ffffff;strokeColor=none;fontColor=#17212b;fontFamily=Arial;fontSize=25;" vertex="1" parent="1">
           <mxGeometry x="100" y="2467.0" width="3760" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="text_3" value="Manages is a subset of WorksOn, so every project manager also works on that project. Project workers must belong to the company running the project." style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fillColor=#ffffff;strokeColor=none;fontColor=#17212b;fontFamily=Arial;fontSize=25;" vertex="1" parent="1">
+        <mxCell id="text_3" value="Manages is a subset of WorksOn: a project manager must also work on that project. All project workers belong to the company running it." style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fillColor=#ffffff;strokeColor=none;fontColor=#17212b;fontFamily=Arial;fontSize=25;" vertex="1" parent="1">
           <mxGeometry x="100" y="2522.0" width="3760" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="text_4" value="Each intern's supervisor must work for the same company as the intern. Only current internships are retained." style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fillColor=#ffffff;strokeColor=none;fontColor=#17212b;fontFamily=Arial;fontSize=25;" vertex="1" parent="1">
+        <mxCell id="text_4" value="An intern and their supervisor must work for the same company. Only current internships are kept." style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fillColor=#ffffff;strokeColor=none;fontColor=#17212b;fontFamily=Arial;fontSize=25;" vertex="1" parent="1">
           <mxGeometry x="100" y="2577.0" width="3760" height="55" as="geometry" />
         </mxCell>
       <mxCell id="notes_heading" value="Notes" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fillColor=#ffffff;strokeColor=none;fontColor=#17212b;fontFamily=Arial;fontSize=27;fontStyle=1;" vertex="1" parent="1">
@@ -1699,13 +1699,13 @@
         <mxCell id="text_1" value="Chen ERD | Company is the same entity as in View 3A; TotalInvestmentReceived is shown here." style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fillColor=#ffffff;strokeColor=none;fontColor=#17212b;fontFamily=Arial;fontSize=25;" vertex="1" parent="1">
           <mxGeometry x="100" y="115" width="3825" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="text_2" value="Booking is identified by (RoomNumber, BookingDate, StartTime); (BookingDate, StartTime) is its partial key." style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fillColor=#ffffff;strokeColor=none;fontColor=#17212b;fontFamily=Arial;fontSize=25;" vertex="1" parent="1">
+        <mxCell id="text_2" value="Booking is identified by (RoomNumber, BookingDate, StartTime). Its partial key is (BookingDate, StartTime)." style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fillColor=#ffffff;strokeColor=none;fontColor=#17212b;fontFamily=Arial;fontSize=25;" vertex="1" parent="1">
           <mxGeometry x="100" y="2146.0" width="3825" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="text_3" value="The system has exactly ten MeetingRoom records. Each booking links one room to one company." style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fillColor=#ffffff;strokeColor=none;fontColor=#17212b;fontFamily=Arial;fontSize=25;" vertex="1" parent="1">
+        <mxCell id="text_3" value="There are exactly ten MeetingRoom records. Each booking links one room to one company." style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fillColor=#ffffff;strokeColor=none;fontColor=#17212b;fontFamily=Arial;fontSize=25;" vertex="1" parent="1">
           <mxGeometry x="100" y="2201.0" width="3825" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="text_4" value="Each investment remains a separate transaction. Totals sum Amount for a company or an investor-company pair." style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fillColor=#ffffff;strokeColor=none;fontColor=#17212b;fontFamily=Arial;fontSize=25;" vertex="1" parent="1">
+        <mxCell id="text_4" value="Each investment is kept as a separate transaction. Totals sum Amount for either a company or an investor-company pair." style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fillColor=#ffffff;strokeColor=none;fontColor=#17212b;fontFamily=Arial;fontSize=25;" vertex="1" parent="1">
           <mxGeometry x="100" y="2256.0" width="3825" height="55" as="geometry" />
         </mxCell>
       <mxCell id="notes_heading" value="Notes" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fillColor=#ffffff;strokeColor=none;fontColor=#17212b;fontFamily=Arial;fontSize=27;fontStyle=1;" vertex="1" parent="1">

@@ -1,6 +1,17 @@
 # CNG 351 Assignment 1 - +gpt değişiklik günlüğü
 
-## Güncel dosyalar
+## Güncel sürüm - dış araç çıktısının düzeltilmesi
+
+- Repodaki +gpt PDF ve draw.io dosyaları son düzeltilmiş sürümle değiştirildi. Ayrıntılı kontrol: REVIEW +gpt.md.
+- Dış araç çıktısındaki 24 bulgu düzeltildi: Rental tarafları, UsageSession adı ve weak terimi, doğru Entity.Attribute yazımı, durum değerleri, username benzersizliği, subset kısıtları, eksilmiş alanlar ve tarih koşulları.
+- Chen tablosu iki sütun halinde onarıldı; assumptions maddeleri ayrıldı. Ana metin ve diyagram notları 11.5 punto; anahtar tabloları korundu.
+- Gönderilen PDF'nin 16 sayfası, A4 metin/A3 yatay çizim ölçüleri ve sırası korundu. Kapak piksel düzeyinde aynı; footer'lar doğru.
+- Sekiz diyagram görselinin dosya içeriği, konumları ve render edilen çizim bölgeleri birebir aynı. Kaynak yüklemede zaten raster olan çizimler aynı biçimde korundu. Önceki vektör sürümün sayfa ölçüleri bu son yüklemenin ölçüleri değildir.
+- Draw.io modelinde yalnızca not metinleri güncellendi. Entity, attribute, ilişki, cardinality ve model koordinatları değişmedi.
+- 24 bulgu, 20 teknik koşul ve bütün sayfaların görünümü yeniden kontrol edildi; yeni bir içerik veya yerleşim sorunu bulunmadı. Mevcut format sınırlaması: PDF içindeki çizimler raster; düzenlenebilir draw.io kaynağı mevcuttur.
+- Son PDF SHA-256: `4CA946FA755B7257C351DB882AFEF0FAE6EE5F15E5F3C2637409220F7C0E027C`.
+
+## Önceki sürüm - notların çizim altına taşınması
 
 Repodaki `CNG351_Assignment1_Report +gpt.pdf` ve `CNG351_Assignment1_Chen +gpt.drawio` dosyaları, son rapor ve çizim kaynağıyla değiştirildi. README bu iki bağımsız dosyaya yönlendirir. ZIP önceki inceleme paketidir.
 
