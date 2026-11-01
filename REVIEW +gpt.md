@@ -1,6 +1,14 @@
 # Review of the corrected CNG 351 report
 
-## Current revision
+## Current B1-B2 revision
+
+The seven report-text pages use shorter sentences and simpler vocabulary. Necessary ER terminology, identifiers and all entity-key tables are retained. All three use cases were compared against the prior source: 6/7/8 rules, 4/4/5 assumptions, date and subset conditions, stored/derived values and uniqueness rules remain. Past employment wording was clarified to preserve former companies and rental history. The ongoing-rental definition explicitly requires both date conditions.
+
+The cover and all eight full diagram pages, including their notes, have identical content streams to the previous PDF. All revised text pages were rendered and individually inspected. No clipped text, overlaps or broken tables were found. The report has 16 pages with the same dimensions, order and footers. No new external detector result is available.
+
+SHA-256: `AAA10F485BB473C5D92614EEE8914210105389C6CCF4C894209CC0702C61ED13`.
+
+## Prior revision
 
 Current PDF: `CNG351_Assignment1.pdf`, 16 pages. Pages 2, 3, 4, 7 and 8 have revised explanations; page 6 has three revised notes. All eight diagram image payloads and placements are unchanged; the page 6 plotted region was compared pixel by pixel. The cover, UC3 and the other seven full diagram pages are unchanged. Key tables, 41 checked modelling conditions and all 67 technical identifiers are retained. Source XML differs only in UC1B text_2, text_3 and text_4. Revised pages were rendered and individually inspected; no clipping or overlaps were found. The new document has not been retested by an external AI detector.
 

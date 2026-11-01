@@ -1,6 +1,15 @@
 # CNG 351 Assignment 1 - +gpt değişiklik günlüğü
 
-## Güncel sürüm - UC1 ve UC2 açıklamalarının düzenlenmesi
+## Güncel sürüm - B1-B2 İngilizce
+
+- Yedi metin sayfasında İngilizce sadeleştirildi; teknik terimler ve anahtar tabloları korundu. Bazı açıklamalarda çift/üçlü boşluk ve daha geniş paragraf aralığı kullanıldı.
+- UC3 geçmiş iş ilişkileri ifadesi netleştirildi; eski şirket kayıtlarının silineceği anlamı oluşması önlendi. Devam eden kira için iki tarih koşulunun birlikte gerektiği açıkça belirtildi.
+- Kapak ve sekiz diyagram sayfasının tamamı, alt notları dahil, önceki sürümle aynıdır. Draw.io kaynağı değişmedi.
+- Üç use case'in anahtarları, kısıtları, 6/7/8 kuralı ve 4/4/5 varsayımı kontrol edildi. Rapor 16 sayfa; sıra, ölçüler ve footer'lar korundu. Değişen sayfalar görsel olarak incelendi.
+- Yeni dış dedektör sonucu alınmadı.
+- PDF SHA-256: `AAA10F485BB473C5D92614EEE8914210105389C6CCF4C894209CC0702C61ED13`.
+
+## Önceki sürüm - UC1 ve UC2 açıklamalarının düzenlenmesi
 
 - Sayfa 2, 3, 4, 7 ve 8: notasyon açıklamaları ve UC1-UC2 gerekçeleri yeniden yazıldı; anahtar tabloları ve teknik kısıtlar korundu.
 - Sayfa 6: yalnızca çizimin altındaki üç Notes paragrafı güncellendi. Aynı üç not draw.io UC1B text_2, text_3 ve text_4 hücrelerine aktarıldı.

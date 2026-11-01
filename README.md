@@ -9,9 +9,9 @@ Assignment 1: conceptual database design using Chen entity relationship diagrams
 - [Review and checks](REVIEW%20%2Bgpt.md)
 - [Change log](CHANGELOG%20%2Bgpt.md)
 
-The current English report has 16 pages, with A4 text pages and landscape A3 drawing pages. The latest revision changes explanations on pages 2, 3, 4, 7 and 8 and the three notes below the drawing on page 6. The same three notes are updated in the editable draw.io source. UC3 and the cover are unchanged. The Requirements source paragraph remains removed.
+The current English report has 16 pages, with A4 text pages and landscape A3 drawing pages. The seven text pages (2, 3, 4, 7, 8, 12 and 13) use simpler B1-B2 English, while necessary database terms are retained. Explanatory paragraphs have some extra space. The cover and all eight complete diagram pages, including their notes, are unchanged from the previous version. The Requirements source paragraph remains removed.
 
-All eight diagram image payloads and their placements are preserved. The drawing region on page 6 is pixel-identical to the prior version. Entity and attribute names, keys, relationship endpoints, cardinalities and model coordinates are unchanged. Key tables and the approved rules and modelling choices are retained. The revised pages were rendered and visually checked; 41 semantic checks and all 67 technical identifiers passed. No new external detector score has been obtained for this revision.
+All entity-key tables, technical identifiers, business rules, assumptions and modelling choices are preserved. Date conditions and stored/derived rules were compared against the previous source. All seven revised pages were rendered and visually checked. The report retains its page order, dimensions and footers. No new external detector score has been obtained.
 
 The submission filename is `CNG351_Assignment1.pdf`. The older `CNG351_Assignment1_Report +gpt.pdf` path remains an identical compatibility copy. The uploaded diagram images were already raster; the editable source is provided separately.
 
