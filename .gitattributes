@@ -1,2 +1,3 @@
 *.pdf binary
+*.drawio text eol=lf
 *.md text eol=lf
