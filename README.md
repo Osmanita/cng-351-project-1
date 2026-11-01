@@ -2,14 +2,17 @@
 
 Assignment 1: conceptual database design using Chen entity relationship diagrams.
 
-## Latest technical revision
+## Latest approved revision
 
-[Open the +gpt report PDF](CNG351_Assignment1_Report%20%2Bgpt.pdf)
+- [Report PDF (+gpt)](CNG351_Assignment1_Report%20%2Bgpt.pdf)
+- [Editable diagrams (+gpt)](CNG351_Assignment1_Chen%20%2Bgpt.drawio)
+- [Review package for Claude (ZIP)](CNG351_Assignment1_gpt.zip)
+- [Page-by-page change log and checks](CHANGELOG%20%2Bgpt.md)
 
-This 16-page review version contains the refreshed vector diagrams. The proposed report text changes are still awaiting approval.
+The 16-page English report includes the approved K1 and R1-R5 changes. O1 and O3 were not applied; stored IsCorrect and its consistency rule were retained. The eight vector diagram pages measure 1684 by 1191 pt. The cover and original files are preserved.
 
 ## Earlier files
 
 - [Original report](CNG351_Assignment1_Report.pdf)
-- [Original editable diagrams](CNG351_Assignment1_Chen.drawio): open with diagrams.net (draw.io).
+- [Original editable diagrams](CNG351_Assignment1_Chen.drawio)
 - [Cleaned assignment guideline](CNG_351_Assignment_1_clean.pdf): invisible text removed, with the visible content and page layout preserved.
